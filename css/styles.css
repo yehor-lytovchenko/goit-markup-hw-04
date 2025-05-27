@@ -463,6 +463,7 @@ body {
 
 .footer-container {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-logo {
@@ -484,12 +485,19 @@ body {
 .footer-text {
   color: #f4f4fd;
   max-width: 264px;
+  font-weight: 400;
+  font-size: 16px;
+  line-heighSt: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 
 }
 
-.footer-social-wrapper {
-  margin-left: 120px;
+.footer-logo-wrapper-container {
+  margin-right: 120px;
 }
+
+.footer-social-wrapper {}
 
 .footer-social-title {
   font-weight: 500;
